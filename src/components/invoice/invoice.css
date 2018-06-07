@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 2rem auto;
+  height: 100%;
+}
+.content {
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.content h2 {
+  text-align: center;
+}
+.content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.content li {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  height: fit-content;
+  margin-bottom: 1rem;
+}
+
+.content ul li span {
+  padding: 0.5rem;
+  display: block;
+}
+
+.content form div input {
+  border-radius: 0.2rem;
+  border: 1rem white;
+  margin: 0.3rem;
+  padding: 0.2rem;
+}
+
+.content form div label {
+  padding: 0.5rem;
+  color: rgb(12, 11, 11);
+}
+
+.content form button {
+  border-radius: 0.2rem none;
+  margin: 0.3rem;
+}
+
+.content form {
+  border-radius: 0.5rem;
+  color: rgb(75, 72, 72);
+  margin-top: 1rem;
+  padding: 0.4rem;
+  background-color: rgb(128, 154, 170);
+  text-align: left;
+  width: 100%;
+}
+
+.content form button,
+.content button,
+.content li button {
+  border-radius: 0.5rem;
+  color: rgb(75, 72, 72);
+  padding: 0.4rem;
+  background-color: lightskyblue;
+  margin: 0.2rem 0.2rem;
+}
+
+.content form button,
+.content button {
+  padding: 0.4rem 0.8rem;
+}
+
+.content a {
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #00a8ff;
+}
